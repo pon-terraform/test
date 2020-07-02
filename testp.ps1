@@ -1,1 +1,1 @@
-Get-ComputerInfo | select WindowsProductName, CsName | convertto-html > C:\inetpub\www\index.html
+Get-ComputerInfo | select WindowsProductName, CsName | convertto-html > C:\inetpub\wwwroot\index.html
